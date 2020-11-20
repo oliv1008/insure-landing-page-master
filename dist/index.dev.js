@@ -1,5 +1,7 @@
-let eltBody = document.getElementsByTagName("body")[0];
-let eltHamburgerButton = document.getElementById("hamburgerButton");
+"use strict";
+
+var eltBody = document.getElementsByTagName("body")[0];
+var eltHamburgerButton = document.getElementById("hamburgerButton");
 eltHamburgerButton.addEventListener("click", toggleScroll);
 
 function toggleScroll() {

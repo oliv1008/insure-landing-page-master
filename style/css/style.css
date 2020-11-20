@@ -16,6 +16,11 @@
   font-weight: normal;
   font-style: normal;
 }
+.noScroll {
+  overflow: hidden;
+  position: fixed;
+}
+
 html {
   font-size: 62.5%;
 }
